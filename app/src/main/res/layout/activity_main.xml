@@ -75,7 +75,7 @@
             android:orientation="horizontal">
 
             <EditText
-                android:id="@+id/ServerEdit"
+                android:id="@+id/HostEdit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -85,7 +85,7 @@
                 android:id="@+id/ServerTip"
                 android:layout_width="132dp"
                 android:layout_height="49dp"
-                android:text="Server"
+                android:text="Server POP3"
                 android:textAlignment="center" />
 
         </LinearLayout>
@@ -124,10 +124,11 @@
         <TextView
             android:id="@+id/ConnectStatus"
             android:layout_width="match_parent"
-            android:layout_height="81dp"
+            android:layout_height="300dp"
+            android:inputType="textMultiLine"
             android:text="Disconnected"
             android:textAlignment="center"
-            android:textSize="32dp" />
+            android:textSize="16dp" />
 
     </LinearLayout>
 
